@@ -1,0 +1,22 @@
+.m-dropdown{
+display: block;
+}
+.m-drawer{
+    display: none;
+}
+
+@media screen and (max-width: 820px) {
+    .m-dropdown{
+        display: none;
+    }
+    .m-drawer{
+        display: block;
+    }
+}
+.textsize{
+    font-size: 20px;
+}
+
+.mx-3 my-2 w-auto form-control{
+    display: none;
+}

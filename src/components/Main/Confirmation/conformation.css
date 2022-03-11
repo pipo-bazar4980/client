@@ -1,0 +1,22 @@
+.text-edit{
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.content-width{
+    width: 50%;
+}
+.colors{
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-width{
+        width: 100%;
+    }
+}
+
+.object{
+    object-fit: contain;
+    height: 70px;
+}
