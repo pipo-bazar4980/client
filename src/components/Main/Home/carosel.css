@@ -1,0 +1,11 @@
+.banner-height{
+    height: 500px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-height{
+        height: auto;
+        object-fit: cover;
+    }
+}
